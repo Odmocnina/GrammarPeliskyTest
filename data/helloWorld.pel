@@ -1,0 +1,6 @@
+Program HelloWorld;
+
+Code {
+    WriteLn("Hello World!");
+    ReadLn();
+}

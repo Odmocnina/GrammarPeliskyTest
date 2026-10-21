@@ -1,0 +1,4 @@
+Code {
+    WriteLn("Hello World!");
+    ReadLn();
+}

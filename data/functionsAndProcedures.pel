@@ -1,0 +1,31 @@
+Program myFirstProgram;
+
+Const {
+    real PI = 3.14;
+}
+
+Procedures {
+    printInfo(number: int) {
+        writeLn("Zavolana procedura s cislem:");
+        writeLn(number);
+    }
+}
+
+Functions {
+    addNumbers(a: int, b: int): int {
+        var int result = a + b;
+        return result;
+    }
+}
+
+Code {
+
+    var int sum := addNumbers(10, 5);
+
+    printInfo(sum);
+
+    // prefix operator example
+    var int prefixSum = +(sum, 10);
+
+    var real circleArea = PI * 5.0;
+}
