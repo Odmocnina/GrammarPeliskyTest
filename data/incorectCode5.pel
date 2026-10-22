@@ -3,7 +3,7 @@ Program program1;
 // constants are in block
 
 Const {
-    Real EULER = 2.7;
+    real EULER := 2.7;
 }
 
 // procedures are in block
@@ -18,7 +18,7 @@ Procedures {
 
 Functions {
     function1(par1: int, par2: int): int {
-        var int number = par1 + par2;
+        var int number = %(par1, par2);
         return number;
     }
 }
@@ -31,12 +31,12 @@ Code {
     var int a := 5;
     var bool b := true;
     var real r := 3.14;
-    var int i;
+    var int i := 1 + 1;
 
     for (i := 0 to i > 10) do {
 
     }
-
+s
     var bool b := true;
 
 }

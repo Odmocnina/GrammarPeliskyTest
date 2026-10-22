@@ -23,7 +23,7 @@ public class Main {
 
     static void main() throws Exception {
         // create a stream of the code from our code file
-        CharStream input = CharStreams.fromFileName("data/incorectCode5.pel");
+        CharStream input = CharStreams.fromFileName("data/incorectCode6.pel");
 
         // make a tokes from our input code
         CustomLangLexer lexer = new CustomLangLexer(input);

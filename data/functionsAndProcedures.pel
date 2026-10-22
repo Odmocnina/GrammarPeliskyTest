@@ -1,7 +1,7 @@
 Program myFirstProgram;
 
 Const {
-    real PI = 3.14;
+    real PI := 3.14;
 }
 
 Procedures {
@@ -13,7 +13,7 @@ Procedures {
 
 Functions {
     addNumbers(a: int, b: int): int {
-        var int result = a + b;
+        var int result = +(a, b);
         return result;
     }
 }
@@ -27,5 +27,5 @@ Code {
     // prefix operator example
     var int prefixSum = +(sum, 10);
 
-    var real circleArea = PI * 5.0;
+    var real circleArea = *(PI, 5.0);
 }

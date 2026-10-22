@@ -1,7 +1,7 @@
 Program myFirstProgram;
 
 Const {
-    real PI = 3.14;
+    real PI := 3.14;
 }
 
 printInfo(number: int) {
